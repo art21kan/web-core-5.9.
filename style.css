@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Barlow-Regular";
+    src: url(Font/Barlow-Regular.woff)
+    }
+
+.fb {
+    background-color:#255A9B;
+    margin-right: 40px;
+}
+
+.in {
+    background-color:#0076B6;
+}
+
+.create {
+    background-color: #3698FB;
+}
+
+h1, h2 {
+    color:#7B8A92;
+}
+
+h3, h4 {
+    color: #96A5B1;
+}
+
+body {
+    color:#2A4A5C;
+    font-family: "Barlow-Regular";
+    background-color: #EFF6FF;
+}
+
+button {
+    color: white;
+    width: 45%;
+    height: 40px;
+    border: hidden;
+    padding: auto;
+}
+
+pre {
+   font-family: "Barlow-Regular";
+   font-size: smaller; 
+   background-color: white;
+   color: #AFAFAF;
+   width: fit-content;
+   padding: 10px;  
+}
+
+input[type=email] {
+    margin-right: 35px;
+    color:#AFAFAF;
+    height: 40px;
+    width: 44%;
+    border-color:#EEEEEE;
+}
+
+input[type=number] {
+    color:#AFAFAF;
+    height: 40px;
+    width: 44%;
+    border-color:#EEEEEE;
+}
+
+label[for=check] {
+    color: #AFAFAF;
+    font-size: small;
+}
+
+.radio {
+    font-weight: bold;
+}
+
+span {
+    color: #AFAFAF;
+    font-size: x-small;
+}
+
+.container {
+    display:inline-flex;
+    margin: 200px;
+    justify-content: center;
+}
+
+.text-container {
+    padding: 100px;
+    background-color:#FFFFFF;
+    }
+
+.main-image {
+    display: block;
+    max-width:fit-content;
+    height: auto;
+    }
+
+.logo-overlay {
+    position:absolute;
+    top: 250px; 
+    left: 250px; 
+    width: 150px; 
+    height: auto;
+}
+
+.shadow-box {
+    width: 230px;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 10px  rgba(0, 0, 0, 0.1);
+    padding:0%;
+}
